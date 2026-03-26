@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato</title>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./styles/styleContato.css" />
+  </head>
+  <body>
+    <header class="home">
+      <h1>Contato</h1>
+      <p>
+        Preencha o formulario abaixo para nos dar um feedback, obrigado!! S2
+      </p>
+      <div class="menu">
+        <img src="./img/furia.png" alt="Furia" class="menu-img" />
+        <nav class="menu-menu">
+          <a href="index.html">Inicio</a>
+          <a href="yuurih.html">Yuurih</a>
+          <a href="kscerato.html">Kscerato</a>
+          <a href="fallen.html">Fallen</a>
+          <a href="contato.html">Contato</a>
+        </nav>
+      </div>
+      <hr />
+    </header>
+    <main class="container">
+      <div class="foto">
+        <img src="./img/fnx-lincoln-lau.gif" alt="csgif" class="foto-jogador" />
+      </div>
+      <h2 class="subtitulo">Nos dê o seu feedback</h2>
+      <form>
+        <fieldset class="formulario">
+          <legend>Informações de contato</legend>
+          <label for="nome">Nome:</label>
+          <input
+            type="text"
+            name="Nome"
+            id="nome"
+            placeholder="Digite seu nome"
+            required
+          />
+
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Digite seu email"
+            required
+          />
+
+          <label for="comentario">Comentário:</label>
+          <textarea
+            name="comentario"
+            id="comentario"
+            placeholder="Digite seu comentário aqui..."
+            cols="70"
+            rows="10"
+          ></textarea
+          ><br />
+
+          <button type="submit">Concluido</button>
+        </fieldset>
+      </form>
+      <form>
+        <h2 class="subtitulo">É molodoy ou não é?</h2>
+
+        <input type="radio" name="pergunta1" id="p1a" />
+        <label for="p1a">Sim</label><br />
+
+        <input type="radio" name="pergunta1" id="p1b" />
+        <label for="p1b">Obiviamente sim</label>
+      </form>
+      <button onclick="alert('Feedback enviado com sucesso obrigrado!! <3')">
+        Enviar
+      </button>
+    </main>
+    <footer class="rodape">
+      <p>&copy; Direitos reservados by Bom e novo</p>
+      <p>
+        Para conhecer mais sobre mim
+        <a
+          href="https://bominovo.github.io/Portifolio/"
+          class="footer-link"
+          target="_blank"
+          >clique aqui</a
+        >
+      </p>
+    </footer>
+  </body>
+  <html></html>
+</html>
