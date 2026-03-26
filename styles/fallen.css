@@ -1,0 +1,55 @@
+@import url('style.css');
+
+video{
+    height: 500px;
+}
+
+.icon{
+    width: 20px;
+}
+
+.foto{
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    margin-left: 1000px;
+}
+.foto-jogador{
+    width: 500px;
+    height: 500px;
+    display: flex;
+}
+
+.redesTitulo{
+    margin-top: 50px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.redes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.redes-redes{
+    margin: auto;
+}
+
+.redes-redes a{
+    padding: 20px;
+    text-decoration: none;
+    color: #010511;
+    font-weight: bold;
+}
+
+.botao-link{
+    padding: 10px 20px;
+}
+
+.botao-link-icone{
+    width: 20px;
+    height: 20px;
+}

@@ -1,0 +1,73 @@
+@import url('style.css');
+
+fieldset{
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #010501;
+}
+
+fieldset label{
+    display: block;
+    padding-top: 20px;
+}
+
+legend{
+    color: black;
+    padding: 0 5px;
+}
+
+textarea{
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid #010511;
+    outline: none;
+}
+
+textarea::placeholder{
+    color: black;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+input::placeholder{
+    color: black;
+}
+
+button{
+    background-color: #010511;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    font-weight: bold;
+    border: 2px solid white;
+}
+
+input[type="radio"]{
+    accent-color: black;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+    width: 500px;
+}
+
+.foto{
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    margin-left: 800px;
+}
+.foto-jogador{
+    margin-top: 0;
+    width: 700px;
+    height: 500px;
+    display: flex;
+}
